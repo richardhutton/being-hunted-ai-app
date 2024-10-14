@@ -1,15 +1,6 @@
-"use client";
-
-
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider"
-import { Sidebar } from "@/components/side-bar";
-import { cn } from "../lib/utils";
-
-import { useStore } from "../hooks/use-store";
-import { useSidebarToggle } from "../hooks/use-sidebar-toggle";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
